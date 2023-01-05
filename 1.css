@@ -256,11 +256,9 @@ a:link {
   } 
 
   .muestra {
-
-    min-height: 3300%;
+    max-height: 200%;
   }
-}
-
+}  
 @media only screen and (max-width: 1100px) {
   #navbar ul {
     padding: 0px;
@@ -300,7 +298,7 @@ a:link {
 
 }
 
-@media only screen and (max-height: 937px) {
+@media only screen and (max-height: 500px) {
 
 
   #navbar {   
