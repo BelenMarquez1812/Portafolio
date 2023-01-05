@@ -289,13 +289,32 @@ a:link {
 @media only screen and (max-width: 937px) {
 
   #subtitulo {
-    font-size: 65px;
+    font-size: 55px;
     margin-top: 7%;
     margin-bottom: 6%;
   }
 
   .muestras {
     padding-bottom: 330%;
+  }
+
+}
+
+@media only screen and (max-height: 937px) {
+
+
+  #navbar {   
+    height: 10%;
+  }
+
+  #subtitulo {
+    font-size: 70px;
+    margin-top: 7%;
+    margin-bottom: 6%;
+  }
+
+  .muestras {
+    padding-bottom: 380%;
   }
 
 }
