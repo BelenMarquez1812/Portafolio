@@ -124,6 +124,7 @@ h1 {
 }
 
 .grid2x2 {
+  display: flex;
   height: 100vh;
   margin-top: 2%;
   display: grid;
@@ -134,19 +135,22 @@ h1 {
   width: 100%;
   max-width: 75% ;
   margin-bottom: 6rem;
-  margin-left: 4%;
   justify-content: center;
-  align-items: center;
   padding-top: 8%;
 }
+
+.box { 
+
+}
+
 
 
 .imagen1 {
   border-color: #dfdcdc50;
   border-width: 2px;
   border-style: solid;
-    width: 80%;
-  height: 80%;
+  width: 100%;
+  height: 100%;
   transition: transform .2s; 
 }
 
@@ -157,7 +161,7 @@ h1 {
 .boton3 {  
   margin-top: -3px;
   background-color: #8b8a8aa6;
-  width: 81%;
+  width: 101%;
   height: 50px;
   text-align: center;
 }
@@ -170,31 +174,22 @@ h1 {
 .texto2 {
   padding-top: 12px;
   color:#c9c9c9;
- font-size: 24px;
- font-family: 'Share Tech Mono', monospace;
- font-weight: 700;
+  font-size: 24px;
+  font-family: 'Share Tech Mono', monospace;
+  font-weight: 700;
 }
 
 a:link {
-  text-decoration: none;}
-
-
-.box { 
-
+  text-decoration: none;
 }
 
-
 .seccion3{
-
   background-color: #6e242c;
-
 }
 
 .social-icons {
-
   display: flex;
   justify-content: center;
-
 }
 
 .social-icons li {
@@ -241,19 +236,16 @@ a:link {
 }
 
 
-@media screen and (max-width: 1550px) {
 
-
+@media screen and (max-width: 800px) {
   #navbar ul {
     padding: 0px;
   }
-
   #subtitulo {
     font-size: 55px;
     margin-top: 7%;
     margin-bottom: 5%;
   }
-  
   .grid2x2 {
   
     width: 900px;
@@ -261,52 +253,49 @@ a:link {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 100fr));
     max-width: 80%;
-    padding-left: 5%;
   } 
 
+  .muestra {
+
+    min-height: 3300%;
+  }
 }
 
-
-@media only screen and (max-width: 768px) {
-
-
+@media only screen and (max-width: 1100px) {
   #navbar ul {
     padding: 0px;
   }
 
+  .grid2x2 {
+  
+    width: 900px;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 100fr));
+    max-width: 80%;
+
+  } 
+
   #subtitulo {
-    font-size: 60px;
+    margin-bottom: 6%;
+  }
+
+  .muestras {
+    padding-bottom: 40%;
+  }
+
+}
+
+@media only screen and (max-width: 937px) {
+
+  #subtitulo {
+    font-size: 65px;
     margin-top: 7%;
     margin-bottom: 6%;
   }
 
   .muestras {
-    padding-bottom: 250%;
-  
+    padding-bottom: 330%;
   }
-
 
 }
-
-@media screen and (max-width: 800px) {
-
-
-  #navbar ul {
-    padding: 0px;
-  }
-
-  #subtitulo {
-    font-size: 60px;
-    margin-top: 7%;
-    margin-bottom: 5%;
-  }
-
-  .muestras {
-    height: 100%;
-  }
-  
-
-  
-}
-
-  
